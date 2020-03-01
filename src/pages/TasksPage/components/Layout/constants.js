@@ -1,0 +1,2 @@
+export const LAYOUT_NAVBAR_HEIGHT_PX = 60;
+export const LAYOUT_SIDEBAR_WIDTH_PX = 220;

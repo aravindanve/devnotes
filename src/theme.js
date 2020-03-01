@@ -21,7 +21,7 @@ export const theme = {
     heading: 'inherit',
     monospace: 'Menlo, monospace',
   },
-  fontSizes: [12, 14, 16, 20, 24, 32, 48, 64, 96],
+  fontSizes: [10, 12, 14, 16, 20, 24, 32, 48, 64, 96],
   fontWeights: {
     body: 400,
     heading: 700,
@@ -30,11 +30,6 @@ export const theme = {
   lineHeights: {
     body: 1.5,
     heading: 1.25,
-  },
-  text: {
-    display: {
-      fontSize: [5, 6, 6],
-    },
   },
   space: [0, 4, 8, 16, 32, 64, 128, 256, 512],
   sizes: {
@@ -47,7 +42,6 @@ export const theme = {
   shadows: {
     card: '0 0 4px rgba(0, 0, 0, .125)',
   },
-  // rebass variants
   text: {
     heading: {
       fontFamily: 'heading',
@@ -127,6 +121,7 @@ export const theme = {
       fontFamily: 'body',
       fontWeight: 'body',
       lineHeight: 'body',
+      fontSize: 2,
       bg: 'background',
       color: 'text',
       '*:focus': {

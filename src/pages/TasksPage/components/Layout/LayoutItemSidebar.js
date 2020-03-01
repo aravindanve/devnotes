@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Box } from 'rebass';
 
-export const TasksLayoutItemSidebar = ({ children, ...props }) => (
+export const LayoutItemSidebar = ({ children, ...props }) => (
   <Box
     sx={{
       overflow: 'hidden',
